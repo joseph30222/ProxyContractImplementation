@@ -80,7 +80,7 @@ Proxy.sol: A proxy contract that stores the logic contract’s address and forwa
 
 Logic.sol: A sample logic contract with basic functionality (e.g., storing and retrieving a value).
 
-# See the /contracts folder for the code.
+ See the /contracts folder for the code.
 
 ## Testing
 The contracts were tested using Remix (remix.ethereum.org). The proxy successfully forwarded calls to the `Logic` contract, and an upgrade to `LogicV2` was performed, demonstrating upgradability while preserving storage.
