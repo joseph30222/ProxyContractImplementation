@@ -83,7 +83,8 @@ Logic.sol: A sample logic contract with basic functionality (e.g., storing and r
  See the /contracts folder for the code.
 
 ## Testing
-The contracts were tested using Remix (remix.ethereum.org). The proxy successfully forwarded calls to the `Logic` contract, and an upgrade to `LogicV2` was performed, demonstrating upgradability while preserving storage.
+
+The contracts were tested in Remix using Remix VM - Mainnet fork. The `Proxy` contract successfully forwarded calls to the `Logic` contract, and an upgrade to `LogicV2` was performed, demonstrating upgradability while preserving storage.
 
 References
 
