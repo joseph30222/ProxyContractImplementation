@@ -86,6 +86,9 @@ Logic.sol: A sample logic contract with basic functionality (e.g., storing and r
 
 The contracts were tested in Remix using Remix VM - Mainnet fork. The `Proxy` contract successfully forwarded calls to the `Logic` contract, and an upgrade to `LogicV2` was performed, demonstrating upgradability while preserving storage.
 
+## Screenshots
+See the `proxy_test.png` file for proof of successful deployment and testing in Remix.
+
 References
 
 
